@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Bakery | Fresh Cakes & Pastries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Delicious<span>Bites</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </nav>
+    </header>
+    
+    <!-- Quick Info -->
+    <section>
+    <div class="container">
+        <h2>Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="images/cake1.jpg" alt="Chocolate Truffle">
+                <div class="card-body">
+                    <h3>Chocolate Truffle Cake</h3>
+                    <p class="price">₹650 / kg</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="images/cake2.jpg" alt="Red Velvet">
+                <div class="card-body">
+                    <h3>Red Velvet Cake</h3>
+                    <p class="price">₹750 / kg</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="images/cake3.jpg" alt="Black Forest">
+                <div class="card-body">
+                    <h3>Black Forest Cake</h3>
+                    <p class="price">₹600 / kg</p>
+                </div>
+            </div>
+            <!-- Add 3–6 more cards -->
+            </div>
+         </div>
+         </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites Bakery | MG Road, Indiranagar, Bangalore | Call: +91 98765 43210</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

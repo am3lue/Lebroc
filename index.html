@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Bakery | Fresh Cakes & Pastries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Delicious<span>Bites</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Freshly Baked with Love</h1>
+            <p>Custom cakes, pastries & bread made daily in Indiranagar</p>
+            <a href="products.html" class="btn">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section>
+        <div class="container" style="text-align:center; padding:60px 0;">
+            <h2>Welcome to Delicious Bites Bakery</h2>
+            <p style="font-size:1.2rem; max-width:800px; margin:0 auto;">
+                Since 2020, we have been serving the best cakes, pastries, and custom celebration cakes in Bangalore. 
+                Everything is baked fresh every morning with pure butter and the finest ingredients.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites Bakery | MG Road, Indiranagar, Bangalore | Call: +91 98765 43210</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 

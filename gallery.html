@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Delicious Bites Bakery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header (same on every page) -->
+    <header>
+        <nav class="container">
+            <div class="logo">Delicious<span>Bites</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">Menu</div>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <section style="padding:120px 0 80px;">
+        <div class="container">
+            <h2>Our Bakery Gallery</h2>
+            <div class="gallery-grid">
+                <img src="images/cake1.jpg" alt="Chocolate Cake">
+                <img src="images/cake2.jpg" alt="Red Velvet Cake">
+                <img src="images/cake3.jpg" alt="Black Forest">
+                <img src="images/cake4.jpg" alt="Custom Birthday Cake">
+                <img src="images/shop.jpg" alt="Inside our bakery">
+                <img src="images/owner.jpg" alt="Owner with customers">
+                <!-- Add more photos -->
+                <img src="images/cake1.jpg" alt="Wedding Cake">
+                <img src="images/cake2.jpg" alt="Cupcakes">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Delicious Bites Bakery | MG Road, Indiranagar, Bangalore | Call: +91 98765 43210</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
