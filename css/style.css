@@ -42,7 +42,7 @@ nav {
 }
 
 .logo span {
-    color: #f39c12;
+    color: #2ecc71;
 }
 
 .nav-links {
@@ -59,7 +59,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #f39c12;
+    color: #2ecc71;
 }
 
 .menu-toggle {
@@ -89,7 +89,7 @@ nav {
 }
 
 .btn {
-    background: #e74c3c;
+    background: #d35400;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -100,7 +100,7 @@ nav {
 }
 
 .btn:hover {
-    background: #c0392b;
+    background: #219d55;
     transform: scale(1.05);
 }
 
@@ -147,7 +147,7 @@ h2 {
 }
 
 .price {
-    color: #e74c3c;
+    color: #d35400;
     font-size: 1.4rem;
     font-weight: 600;
 }
